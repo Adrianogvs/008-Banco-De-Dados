@@ -1,3 +1,4 @@
+-- CONECTANDO NO BANCO DE DADOS
 USE ContosoRetailDW;
 
-select * from [dbo].[DimAccount];
+SELECT * FROM [dbo].[DimAccount];

@@ -9,7 +9,8 @@ SELECT	*
 FROM DimProduct;
 
 
--- Retorna os valores distintos da coluna ColorName da tabela dimProduct
+-- Retorna os valores distintos da coluna ColorName da tabela dimProduct.
 SELECT	DISTINCT ColorName
 FROM DimProduct;
+
 

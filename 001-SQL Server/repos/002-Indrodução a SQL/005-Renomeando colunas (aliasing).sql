@@ -10,12 +10,12 @@ SELECT	ProductName AS Produto,
 		ColorName   AS Cor
 FROM DimProduct;
 
-/*ObservaÁ„o:
-  Se for utilizar o nome composto, deve-se utilizar aspas para que o nome seja composto, caso n„o faÁa isso, pode gerar erro.
+/*Observa√ß√£o:
+  Se for utilizar o nome composto, deve-se utilizar aspas para que o nome seja composto, caso n√£o fa√ßa isso, pode gerar erro.
   Exemplo:
 
   ProductName AS Nome do Produto, deve-se colocar assim:
 
-  ProductName AS "Nome do Produto"
+  ProductName AS "Nome do Produto".
 
 */
