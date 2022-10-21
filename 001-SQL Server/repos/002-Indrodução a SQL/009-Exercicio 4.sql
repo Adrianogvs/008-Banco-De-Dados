@@ -8,5 +8,5 @@ Utilize um comando em SQL para retornar apenas os nomes dos fornecedores na tabe
 -- CONECTANDO NO BANCO DE DADOS
 USE ContosoRetailDW
 
-SELECT	* 
+SELECT	DISTINCT MANUFACTURER AS PRODUTOR
 FROM DimProduct;
